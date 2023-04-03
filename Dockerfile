@@ -25,4 +25,4 @@ RUN pip install --no-cache-dir networkx scipy
 # Override command to disable running jupyter notebook at launch
 # CMD ["/bin/bash"]
 
-RUN apt-get install -y mypackage
+RUN apt-get install -y g++
