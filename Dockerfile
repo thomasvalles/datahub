@@ -24,6 +24,6 @@ RUN pip install --no-cache-dir networkx scipy
 USER root
 
 RUN apt-get -y install htop 
-
-RUN apt-get -y install gcc-c++
+RUN apt-get update
+RUN apt-get -y install g++
 
